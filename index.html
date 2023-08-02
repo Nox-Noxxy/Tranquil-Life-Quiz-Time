@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1.0">
+  <title>replit</title>
+  <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+  <title>Quiz</title>
+</head>
+
+<body>
+  <h1>QUIZZICAL</h1>
+  
+     <div class= "quiz-area">
+    <div class="gener-table">
+      <button data-type="Hatha" class="gener-btn">Hatha</button>
+      <button data-type="Iyengar" class="gener-btn">Iyengar</button>
+      <button data-type="Kundalini" class="gener-btn">Kundalini</button>
+      <button data-type="Vinyasa" class="gener-btn">Vinyasa</button>
+      <button data-type="Power" class="gener-btn">Power-yoga</button>
+      <button data-type="Ashtanga" class="gener-btn">Ashtanga</button>
+
+      
+   
+     <div class= "question" id="question">
+       <span id="operand1"> Hatha is the original yoga? </span>
+       
+      <div class="options" id="opt"></div> 
+   <div id= "countScore"></div>
+      </div>
+      
+       <div id= "answera"class="answer-area">
+         <input id="answer-box"  type="text">
+       </div>
+      <br>
+     
+
+  <button data-type="submit" class="submit">submit</button>
+    
+  <div  class="score-area" >
+    <span id= "score"> 0</span>
+  </div>
+      
+<div id="won" style="display:none;">YOU WIN!</div>
+      <div id="lost" style="display:none">YOU LOST <br>Try again</div>
+  <div id="Restart" style="display:none">RESTART GAME!</div>
+      
+  <script src="assets/js/script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+
+</body>
+
+</html>
