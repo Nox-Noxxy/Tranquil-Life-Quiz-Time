@@ -1,9 +1,10 @@
 html {
-  height: 100%;
-  width: 100%;
+  height: 80%;
+  width: 0%;
 }
 body {
-  background-color: blue;
+  background-color: lavender;
+  width: 80%;
 }
 .gener-btn{
   width: 100px;
@@ -38,22 +39,8 @@ body {
   padding-top: 5px;
 }
 
-.answerTrue {
-  background-color: pink;
-  color: #fffafa;
-  text-align: center;
-  cursor: pointer;
-  overflow: hidden;
- 
-}
-.answerFalse {
-  
-  background-color: pink;
-  color: white;
-  text-align: center;
-  cursor: pointer;
-  overflow: hidden;
-}
+
+
 .submit{
   border: none;
   width: 100px;
