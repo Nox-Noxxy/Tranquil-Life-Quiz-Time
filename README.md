@@ -28,3 +28,7 @@ Inactive buttons at the top of the page displaying the 6 different types of yoga
     **Lighthouse**
     
 (url)https://8000-noxnoxxy-tranquillifequ-7rxf0n1wc57.ws-us102.gitpod.io/
+
+
+**Site url**
+- https://nox-noxxy.github.io/Tranquil-Life-Quiz./
